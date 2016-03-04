@@ -1,0 +1,18 @@
+{
+  "name": "configen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "configen": "bin/configen"
+  },
+  "scripts": {
+    "example": "node bin/configen mangopress user=foo password=bar"
+  },
+  "author": "Viliam Kopecký <vk@viliamkopecky.cz>",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "yargs": "^4.2.0"
+  }
+}
